@@ -1,5 +1,5 @@
 """
-UPI Pulse — synthetic data generator
+DhanDrishti — synthetic data generator
 ====================================
 Simulates 6 months (Jan–Jun 2026) of activity on a fictional UPI payments app.
 

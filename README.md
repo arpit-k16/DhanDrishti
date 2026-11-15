@@ -1,4 +1,4 @@
-# UPI Pulse: Payment Reliability, Fraud & Retention Analytics
+# DhanDrishti: Payment Reliability, Fraud & Retention Analytics
 
 **An end-to-end analytics project on a UPI payments app: where it loses money, users and trust, and what to fix first.**
 
@@ -80,7 +80,7 @@ so merchant-side features are the next thing to add.
 ## Repository structure
 
 ```
-upi-pulse/
+DhanDrishti/
 ├── data/
 │   ├── generate_data.py          # synthetic data simulator (seeded, reproducible)
 │   ├── raw/                      # 7 CSV tables (users, transactions, refunds, tickets, ...)
@@ -107,7 +107,7 @@ upi-pulse/
 ```bash
 pip install -r requirements.txt
 python data/generate_data.py          # ~2 min -> data/raw/*.csv  (already included)
-python src/build_db.py                # CSVs -> data/upi_pulse.db (SQLite)
+python src/build_db.py                # CSVs -> data/dhandrishti.db (SQLite)
 python src/run_sql.py                 # runs all SQL, saves results to reports/sql_outputs/
 python notebooks/build_notebooks.py   # re-executes the three notebooks
 python dashboard/build_dashboard.py   # rebuilds dashboard/index.html

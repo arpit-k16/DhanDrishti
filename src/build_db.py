@@ -1,11 +1,11 @@
-"""Load the raw CSVs into a local SQLite warehouse (data/upi_pulse.db) with indexes."""
+"""Load the raw CSVs into a local SQLite warehouse (data/dhandrishti.db) with indexes."""
 import os
 import sqlite3
 import pandas as pd
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, "data", "raw")
-DB = os.path.join(ROOT, "data", "upi_pulse.db")
+DB = os.path.join(ROOT, "data", "dhandrishti.db")
 
 TABLES = ["users", "merchants", "banks", "campaigns", "transactions", "refunds", "support_tickets"]
 INDEXES = [

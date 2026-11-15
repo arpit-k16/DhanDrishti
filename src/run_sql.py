@@ -12,7 +12,7 @@ import sys
 import pandas as pd
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DB = os.path.join(ROOT, "data", "upi_pulse.db")
+DB = os.path.join(ROOT, "data", "dhandrishti.db")
 OUT = os.path.join(ROOT, "reports", "sql_outputs")
 os.makedirs(OUT, exist_ok=True)
 pd.set_option("display.width", 200)

@@ -1,4 +1,4 @@
-datadhandrishti.db
+data/dhandrishti.db
 __pycache__/
 .ipynb_checkpoints/
 *.pyc

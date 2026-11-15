@@ -1,0 +1,6 @@
+txn_type,attempts,share_of_volume_pct,avg_ticket_inr,share_of_gmv_pct,success_rate_pct
+P2M,146889,46.5,333.0,19.1,95.9
+P2P,94068,29.8,1425.0,49.9,94.85
+RECHARGE,31255,9.9,721.0,8.8,95.94
+BILL,28010,8.9,1394.0,15.1,95.59
+COLLECT,15600,4.9,1209.0,7.1,94.99

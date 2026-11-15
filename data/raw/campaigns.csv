@@ -1,0 +1,3 @@
+campaign_id,code,start_date,end_date,rule,max_reward,budget_inr
+CMP01,NEWUSER50,2026-01-15,2026-02-15,Flat Rs 50 on first merchant payment >= Rs 100,50,1500000
+CMP02,SUMMER100,2026-04-01,2026-04-30,Up to Rs 100 on first merchant payment >= Rs 100,100,2500000

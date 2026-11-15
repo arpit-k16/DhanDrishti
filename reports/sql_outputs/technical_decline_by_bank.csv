@@ -1,0 +1,9 @@
+payer_bank,bank_name,attempts,tech_declines,tech_decline_pct,x_platform_avg
+CCB,Coastal Co-operative Bank,23510,1496,6.36,2.7
+GRB,Granite Rural Bank,15099,613,4.06,1.72
+MRB,Meridian Bank,39555,1367,3.46,1.47
+SFB,Saffron Bank,50808,975,1.92,0.81
+PNC,Pinnacle Bank,21538,403,1.87,0.79
+HBR,Harbor Bank,32466,603,1.86,0.79
+UNB,Unity National Bank,64326,1078,1.68,0.71
+NSB,Northstar Bank,68520,915,1.34,0.57

@@ -1,0 +1,3 @@
+cohort,users,churned_pct
+clean first 14 days,9278,44.0
+hit a failure in first 14 days,1179,53.7

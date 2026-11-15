@@ -1,0 +1,4 @@
+city_tier,users,txns_per_user,avg_ticket_inr,success_rate_pct
+1,5866,25.6,819.0,95.45
+2,4244,25.4,827.0,95.6
+3,2274,25.3,887.0,95.54

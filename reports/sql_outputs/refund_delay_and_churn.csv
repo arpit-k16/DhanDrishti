@@ -1,0 +1,3 @@
+cohort,users,churned_pct
+refund stuck > T+1,213,50.2
+refund within T+1,874,38.0

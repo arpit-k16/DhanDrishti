@@ -1,0 +1,7 @@
+failure_reason,decline_type,declines,share_pct,value_lakh_inr
+WRONG_PIN,business (user-side),3620,25.6,29.45
+BANK_SERVER_DOWN,technical,3517,24.9,30.81
+TIMEOUT,technical,2874,20.3,25.07
+INSUFFICIENT_FUNDS,business (user-side),2649,18.7,38.12
+NETWORK_ERROR,technical,1059,7.5,9.1
+RISK_BLOCKED,risk,428,3.0,40.4

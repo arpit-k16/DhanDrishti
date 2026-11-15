@@ -1,0 +1,5 @@
+resolution_bucket,tickets,avg_csat,detractor_pct
+1) <= 12h,487,4.32,0.0
+2) 12-48h,788,3.99,2.4
+3) 2-5 days,250,2.68,41.2
+4) > 5 days,144,1.17,97.9

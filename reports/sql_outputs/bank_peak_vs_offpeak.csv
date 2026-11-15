@@ -1,0 +1,9 @@
+payer_bank,offpeak_tech_decline_pct,peak_tech_decline_pct,peak_avg_latency_ms
+MRB,1.89,6.87,2997.0
+CCB,5.91,7.36,3415.0
+GRB,3.73,4.77,3074.0
+PNC,1.75,2.15,2465.0
+SFB,1.82,2.13,2443.0
+HBR,1.77,2.05,2408.0
+UNB,1.61,1.82,2356.0
+NSB,1.29,1.44,2280.0

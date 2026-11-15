@@ -1,0 +1,9 @@
+payer_bank,bank_name,debited_failures,avg_tat_h,breach_pct,compensation_liability_inr
+CCB,Coastal Co-operative Bank,506,28.4,30.4,42900
+MRB,Meridian Bank,451,26.1,27.7,34200
+GRB,Granite Rural Bank,218,24.9,23.9,15300
+SFB,Saffron Bank,298,7.2,3.0,900
+HBR,Harbor Bank,195,7.1,2.6,500
+PNC,Pinnacle Bank,134,6.5,2.2,300
+NSB,Northstar Bank,332,6.9,1.8,800
+UNB,Unity National Bank,336,7.0,1.8,1000

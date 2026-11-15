@@ -1,0 +1,6 @@
+txn_type,fraud_txns,fraud_rate_pct,fraud_loss_lakh,avg_fraud_ticket_inr,avg_legit_ticket_inr
+COLLECT,345,2.212,17.3,5013.0,1123.0
+P2P,268,0.285,8.95,7196.0,1409.0
+P2M,128,0.087,5.57,4353.0,330.0
+RECHARGE,0,0.0,,,721.0
+BILL,0,0.0,,,1394.0

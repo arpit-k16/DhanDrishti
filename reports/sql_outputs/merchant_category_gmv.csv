@@ -1,0 +1,13 @@
+category,txns,gmv_lakh_inr,avg_ticket_inr,unique_buyers
+Telecom,29052,302.57,1041.0,8262
+Utilities,27709,285.3,1030.0,8086
+Kirana,45777,150.24,328.0,10035
+Grocery,20348,66.85,329.0,7405
+Fashion,18738,62.96,336.0,7187
+Food & Dining,15621,51.93,332.0,6633
+Entertainment,12347,40.13,325.0,5880
+Pharmacy,8002,26.83,335.0,4692
+Fuel,7946,26.8,337.0,4572
+Travel,4620,16.89,366.0,3236
+Electronics,3518,13.65,388.0,2594
+Education,3952,13.01,329.0,2845

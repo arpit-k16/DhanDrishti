@@ -6,3 +6,4 @@ jupyter
 nbformat
 nbconvert
 streamlit>=1.36
+plotly>=5.20

@@ -6,6 +6,11 @@
 
 ![Dashboard](reports/figures/dashboard_preview.png)
 
+**Interactive dashboard:** `streamlit run app.py`. Six tabs (Overview, Reliability, Refunds & support, Retention,
+Fraud & abuse, Fraud model lab). Sidebar filters for date, bank, payment type, channel, city tier and age drive every
+chart. In the model lab you can move the fraud threshold and the friction cost and watch precision, recall and net
+savings update against the static rules.
+
 ---
 
 ## The business problem
@@ -98,7 +103,8 @@ DhanDrishti/
 │   └── 03_churn_prediction.ipynb       # early churn model, drivers, lift
 ├── src/                          # build_db.py, run_sql.py, features.py, models.py, plot_style.py
 ├── tests/                        # audits: every README number recomputed + leakage tests
-├── dashboard/index.html          # self-contained interactive dashboard (open in a browser)
+├── app.py                        # interactive Streamlit dashboard (6 tabs, global filters, model lab)
+├── data/processed/               # pre-computed model scores used by the app (built by src/build_app_data.py)
 └── reports/                      # figures + every SQL result as CSV
 ```
 
@@ -110,9 +116,11 @@ python data/generate_data.py          # ~2 min -> data/raw/*.csv  (already inclu
 python src/build_db.py                # CSVs -> data/dhandrishti.db (SQLite)
 python src/run_sql.py                 # runs all SQL, saves results to reports/sql_outputs/
 python notebooks/build_notebooks.py   # re-executes the three notebooks
-python dashboard/build_dashboard.py   # rebuilds dashboard/index.html
+python src/build_app_data.py         # pre-computes model scores for the dashboard (~30 s)
+streamlit run app.py                 # opens the interactive dashboard at localhost:8501
 python tests/test_readme_numbers.py   # recomputes every number in this README from raw data
 python tests/test_ml.py               # leakage tests + re-trains models and checks quoted metrics
+python tests/test_app.py              # runs the dashboard headless with filters/sliders and checks its numbers
 ```
 Power BI / Tableau users: import `data/raw/*.csv` directly. The tables join on `user_id`, `txn_id`, `merchant_id` and `bank_code`.
 

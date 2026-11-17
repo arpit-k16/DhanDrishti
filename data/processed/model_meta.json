@@ -1,0 +1,17 @@
+{
+  "fraud": {
+    "threshold": 0.96,
+    "fp_cost_inr": 100,
+    "train_period": "2026-01-01 to 2026-04-30",
+    "test_period": "2026-05-01 to 2026-06-30",
+    "pr_auc": {
+      "Blend (selected)": 0.6289,
+      "Logistic regression": 0.6046,
+      "Gradient boosting": 0.5623
+    }
+  },
+  "churn": {
+    "roc_auc_gbm": 0.8893,
+    "roc_auc_logit": 0.8697
+  }
+}
